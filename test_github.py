@@ -1,5 +1,5 @@
 import pytest
-from Get_GitHub_Commits import get_user_repo_commits
+from Get_GitHub_commits import get_user_repo_commits
 
 def test_user_github_commits(capsys):
     user_id='sidhdhuk09'
