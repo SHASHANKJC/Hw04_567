@@ -1,7 +1,8 @@
 language: python
 python:
- - "3.5"
+  - "3.8"  # Updated Python version
 install:
+  - ls -la  # List files in the current directory
   - pip install -r requirements.txt
 script:
   - pytest test_github.py
