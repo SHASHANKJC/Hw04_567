@@ -4,7 +4,7 @@ from unittest.mock import patch, Mock
 
 class TestGitHubAPI(unittest.TestCase):
 
-    @patch('GitHub_API.requests.get')
+    @patch('Get_GitHub_commits.requests.get')
     def test_get_user_repo_commits(self, mock_requests_get):
         # Prepare a mock response for the repositories API
         repositories_response = Mock()
